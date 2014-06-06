@@ -36,7 +36,7 @@ func main() {
 		if err != nil {
 			panic(err)
 		} else {
-			fout.WriteString("127.0.0.1:843")
+			fout.WriteString(":843")
 			fout.Sync()
 			fout.Close()
 
