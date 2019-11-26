@@ -24,7 +24,9 @@ jobs:
             dep ensure
         fi
 
+    - name: cd
+      run: cd FlashAuthentication/src
     - name: Build
-      run: | 
-      cd FlashAuthentication/src
-      go build -v .
+      run: go build -v .
+
+    
